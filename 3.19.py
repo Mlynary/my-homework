@@ -13,7 +13,6 @@ def mean_squared_error(y, t):
 # 计算均方误差
 print(np.argmax(y))
 print(mean_squared_error(np.array(y), np.array(t)))
-
 # 第二组数据
 y2 = [0.1, 0.05, 0.1, 0.0, 0.05,
     0.1, 0.0, 0.6, 0.0, 0.0]
